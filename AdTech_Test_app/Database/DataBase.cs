@@ -47,7 +47,7 @@ namespace iConText_Group_Task
 
         public virtual void Add(E element)
         {
-            int maxId = 123 - 1; //0
+            int maxId = 0; 
 
             foreach (var item in _elements)
             {
